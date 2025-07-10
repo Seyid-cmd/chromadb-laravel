@@ -3,11 +3,11 @@
 declare(strict_types=1);
 
 
-namespace Codewithkyrian\ChromaDB\Facades;
+namespace Seyidcmd\ChromaDB\Facades;
 
-use Codewithkyrian\ChromaDB\Embeddings\EmbeddingFunction;
-use Codewithkyrian\ChromaDB\Generated\Models\Collection;
-use Codewithkyrian\ChromaDB\Resources\CollectionResource;
+use Seyidcmd\ChromaDB\Embeddings\EmbeddingFunction;
+use Seyidcmd\ChromaDB\Generated\Models\Collection;
+use Seyidcmd\ChromaDB\Resources\CollectionResource;
 use Illuminate\Support\Facades\Facade;
 
 /**
@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static void deleteCollection(string $name)
  * @method static void deleteAllCollections()
  *
- * @see \Codewithkyrian\ChromaDB\ChromaDB
+ * @see \Seyidcmd\ChromaDB\ChromaDB
  */
 final class ChromaDB extends Facade
 {

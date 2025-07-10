@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Codewithkyrian\ChromaDB\Tests;
+namespace Seyidcmd\ChromaDB\Tests;
 
-use Codewithkyrian\ChromaDB\ChromaServiceProvider;
+use Seyidcmd\ChromaDB\ChromaServiceProvider;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Orchestra\Testbench\Attributes\WithMigration;
 use function Orchestra\Testbench\workbench_path;

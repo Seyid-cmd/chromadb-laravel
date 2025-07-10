@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Codewithkyrian\ChromaDB\ChromaServiceProvider;
-use Codewithkyrian\ChromaDB\Facades\ChromaDB;
+use Seyidcmd\ChromaDB\ChromaServiceProvider;
+use Seyidcmd\ChromaDB\Facades\ChromaDB;
 use Illuminate\Config\Repository;
 
 it('resolves and calls the methods', function () {

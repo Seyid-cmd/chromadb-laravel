@@ -2,9 +2,9 @@
 
 namespace Workbench\App\Models;
 
-use Codewithkyrian\ChromaDB\Concerns\HasChromaCollection;
-use Codewithkyrian\ChromaDB\Contracts\ChromaModel;
-use Codewithkyrian\ChromaDB\Embeddings\EmbeddingFunction;
+use Seyidcmd\ChromaDB\Concerns\HasChromaCollection;
+use Seyidcmd\ChromaDB\Contracts\ChromaModel;
+use Seyidcmd\ChromaDB\Embeddings\EmbeddingFunction;
 use Illuminate\Database\Eloquent\Model;
 
 class TestModel extends Model implements ChromaModel

@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Codewithkyrian\ChromaDB\ChromaServiceProvider;
-use Codewithkyrian\ChromaDB\Client;
+use Seyidcmd\ChromaDB\ChromaServiceProvider;
+use Seyidcmd\ChromaDB\Client;
 use Illuminate\Config\Repository;
 
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Codewithkyrian\ChromaDB\Jobs;
+namespace Seyidcmd\ChromaDB\Jobs;
 
-use Codewithkyrian\ChromaDB\Contracts\ChromaModel;
+use Seyidcmd\ChromaDB\Contracts\ChromaModel;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;

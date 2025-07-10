@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use Codewithkyrian\ChromaDB\Concerns\HasChromaCollection;
-use Codewithkyrian\ChromaDB\Jobs\DeleteChromaCollectionItemJob;
-use Codewithkyrian\ChromaDB\Jobs\UpdateChromaCollectionJob;
-use Codewithkyrian\ChromaDB\Resources\CollectionResource;
+use Seyidcmd\ChromaDB\Concerns\HasChromaCollection;
+use Seyidcmd\ChromaDB\Jobs\DeleteChromaCollectionItemJob;
+use Seyidcmd\ChromaDB\Jobs\UpdateChromaCollectionJob;
+use Seyidcmd\ChromaDB\Resources\CollectionResource;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Bus;
 use Illuminate\Support\Facades\Event;

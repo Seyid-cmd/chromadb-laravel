@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Codewithkyrian\ChromaDB\Concerns;
+namespace Seyidcmd\ChromaDB\Concerns;
 
-use Codewithkyrian\ChromaDB\Contracts\ChromaModel;
-use Codewithkyrian\ChromaDB\Embeddings\EmbeddingFunction;
-use Codewithkyrian\ChromaDB\Facades\ChromaDB;
-use Codewithkyrian\ChromaDB\Jobs\DeleteChromaCollectionItemJob;
-use Codewithkyrian\ChromaDB\Jobs\UpdateChromaCollectionJob;
-use Codewithkyrian\ChromaDB\Resources\CollectionResource;
+use Seyidcmd\ChromaDB\Contracts\ChromaModel;
+use Seyidcmd\ChromaDB\Embeddings\EmbeddingFunction;
+use Seyidcmd\ChromaDB\Facades\ChromaDB;
+use Seyidcmd\ChromaDB\Jobs\DeleteChromaCollectionItemJob;
+use Seyidcmd\ChromaDB\Jobs\UpdateChromaCollectionJob;
+use Seyidcmd\ChromaDB\Resources\CollectionResource;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Eloquent\Builder;

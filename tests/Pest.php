@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Codewithkyrian\ChromaDB\Facades\ChromaDB;
-use Codewithkyrian\ChromaDB\Tests\TestCase;
+use Seyidcmd\ChromaDB\Facades\ChromaDB;
+use Seyidcmd\ChromaDB\Tests\TestCase;
 
 uses(TestCase::class)
     ->beforeEach(fn() => ChromaDB::deleteAllCollections())

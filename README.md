@@ -24,7 +24,7 @@ composer require codewithkyrian/chromadb-laravel
 After installing the package, you can publish the configuration file using the following command:
 
 ```bash
-php artisan vendor:publish --provider="Codewithkyrian\ChromaDB\ChromaServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Seyidcmd\ChromaDB\ChromaServiceProvider" --tag="config"
 ```
 
 This will publish a `chromadb.php` file in your config directory with the following content:
@@ -147,7 +147,7 @@ Of course, you need to have the ChromaDB server running before you can use this 
 ChromaDB can be found in the [ChromaDB website](https://docs.trychroma.com/deployment).
 
 ```php
-use Codewithkyrian\ChromaDB\Facades\ChromaDB;
+use Seyidcmd\ChromaDB\Facades\ChromaDB;
 
 ChromaDB::version(); // Eg. 0.4.2
 
@@ -169,8 +169,8 @@ automatically sync them to ChromaDB. To get started, add the ChromaModel interfa
 model.
 
 ```php
-use Codewithkyrian\ChromaDB\Contracts\ChromaModel;
-use Codewithkyrian\ChromaDB\Concerns\HasChromaCollection;
+use Seyidcmd\ChromaDB\Contracts\ChromaModel;
+use Seyidcmd\ChromaDB\Concerns\HasChromaCollection;
 
 class User extends Model implements ChromaModel
 {
@@ -200,7 +200,7 @@ After that, there are a few methods that you need to implement in your model.
   the [built-in embedding functions](https://github.com/CodeWithKyrian/chromadb-php?tab=readme-ov-file#passing-in-embedding-function)
   or create your own embedding function by implementing the EmbeddingFunction interface (including Anonymous Classes).
     ```php
-        use Codewithkyrian\ChromaDB\Embeddings\JinaEmbeddingFunction;
+        use Seyidcmd\ChromaDB\Embeddings\JinaEmbeddingFunction;
   
         public function embeddingFunction(): string
         {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Codewithkyrian\ChromaDB\Contracts;
+namespace Seyidcmd\ChromaDB\Contracts;
 
-use Codewithkyrian\ChromaDB\Embeddings\EmbeddingFunction;
-use Codewithkyrian\ChromaDB\Resources\CollectionResource;
+use Seyidcmd\ChromaDB\Embeddings\EmbeddingFunction;
+use Seyidcmd\ChromaDB\Resources\CollectionResource;
 
 interface ChromaModel
 {

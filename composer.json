@@ -1,5 +1,5 @@
 {
-    "name": "codewithkyrian/chromadb-laravel",
+    "name": "seyidcmd/chromadb-laravel",
     "description": "ChromaDB Laravel is a Laravel client for the Chroma Open Source Embedding Database",
     "keywords": [
         "chromadb",

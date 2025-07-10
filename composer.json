@@ -19,17 +19,17 @@
     "require": {
         "php": "^8.3",
         "laravel/framework": "^12.0",
-        "codewithkyrian/chromadb-php": "^0.1.0"
+        "SeyidCmd/chromadb-php": "^0.1.0"
     },
     "require-dev": {
-        "pestphp/pest": "^1.9.1 | ^2.15",
+        "pestphp/pest": "^3.8",
         "symfony/var-dumper": "^6.3 |^7.0.1",
         "mockery/mockery": "^1.6",
         "orchestra/testbench": "^7.0 | ^8.20"
     },
     "autoload": {
         "psr-4": {
-            "Codewithkyrian\\ChromaDB\\": "src/"
+            "SeyidCmd\\ChromaDB\\": "src/"
         }
     },
     "authors": [
@@ -48,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Codewithkyrian\\ChromaDB\\ChromaServiceProvider"
+                "SeyidCmd\\ChromaDB\\ChromaServiceProvider"
             ]
         }
     },
@@ -70,7 +70,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Codewithkyrian\\ChromaDB\\Tests\\": "tests/",
+            "SeyidCmd\\ChromaDB\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/",
             "Workbench\\Database\\Factories\\": "workbench/database/factories/",
             "Workbench\\Database\\Seeders\\": "workbench/database/seeders/"
